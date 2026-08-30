@@ -1,0 +1,76 @@
+/* Fondo degradado */
+body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(135deg, #b22222, #6a0dad); /* rojo a púrpura */
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Caja del formulario */
+.register-container {
+    width: 100%;
+    max-width: 500px;
+    background-color: #111;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 8px 25px rgba(0,0,0,0.6);
+}
+
+/* Título */
+.register-container h1 {
+    text-align: center;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+/* Cada grupo de campo */
+.form-group {
+    margin-bottom: 18px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 6px;
+    color: #eee;
+    font-weight: bold;
+}
+
+.form-group input,
+.form-group select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #444;
+    border-radius: 8px;
+    background-color: #222;
+    color: #fff;
+    font-size: 14px;
+    outline: none;
+    transition: 0.3s;
+}
+
+.form-group input:focus,
+.form-group select:focus {
+    border-color: #b22222;
+    box-shadow: 0 0 5px rgba(178,34,34,0.5);
+}
+
+/* Botón */
+button {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    background: linear-gradient(135deg, #b22222, #6a0dad);
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(178,34,34,0.4);
+}

@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de Registro</title>
+    <link rel="stylesheet" href="/frontend/css/register.css"
+</head>
+<body>
+    <h1>Formulario de Registro</h1>
+
+    <form action="/backend/registrar_usuario.php" method="post">
+
+        <!-- Nombre -->
+        <div>
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required>
+        </div>
+        <br>
+
+        <!-- Apellido -->
+        <div>
+            <label for="apellido">Apellido:</label>
+            <input type="text" id="apellido" name="apellido" required>
+        </div>
+        <br>
+
+        <!-- Tipo de documento -->
+        <div>
+            <label for="tipo_documento">Tipo de documento:</label>
+            <select id="tipo_documento" name="tipo_documento" required>
+                <option value="">Seleccione</option>
+                <option value="cedula">Cédula de ciudadanía</option>
+                <option value="ti">Tarjeta de identidad</option>
+                <option value="ce">Cédula de extranjería</option>
+                <option value="pasaporte">Pasaporte</option>
+            </select>
+        </div>
+        <br>
+
+        <!-- Número de documento -->
+        <div>
+            <label for="numero_documento">Número de documento:</label>
+            <input type="text" id="numero_documento" name="numero_documento" required>
+        </div>
+        <br>
+
+        <!-- Dirección -->
+        <div>
+            <label for="direccion">Dirección:</label>
+            <input type="text" id="direccion" name="direccion" required>
+        </div>
+        <br>
+
+        <!-- Teléfono -->
+        <div>
+            <label for="telefono">Teléfono:</label>
+            <input type="tel" id="telefono" name="telefono" required>
+        </div>
+        <br>
+
+        <!-- Correo electrónico -->
+        <div>
+            <label for="correo">Correo electrónico:</label>
+            <input type="email" id="correo" name="correo" required>
+        </div>
+        <br>
+
+        <!-- Contraseña -->
+        <div>
+            <label for="contrasena">Contraseña:</label>
+            <input type="password" id="contrasena" name="contrasena" required>
+        </div>
+        <br>
+
+        <!-- Confirmar contraseña -->
+        <div>
+            <label for="confirmar_contrasena">Confirmar contraseña:</label>
+            <input type="password" id="confirmar_contrasena" name="confirmar_contrasena" required>
+        </div>
+        <br>
+
+        <!-- Botón -->
+        <div>
+            <button type="submit">Registrarse</button>
+        </div>
+    </form>
+</body>
+</html>
