@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Concesionario Mi Auto</title>
+    <link rel="stylesheet" href="/frontend/css/style.css">
+</head>
+<body>
+
+    <!-- Encabezado -->
+    <header>
+        <img src="/frontend/img/logo.png.png" alt="Logo del concesionario" width="117">
+        <nav>
+            <button id="menu-btn">☰</button>
+<nav id="menu">
+            <a href="index.html">Inicio</a>
+            <a href="quienes.html">Quiénes Somos</a>
+            <a href="servicios.html">Servicios</a>
+            <a href="productos.html">Vehículos</a>
+            <a href="blog.html">Blog</a>
+            <a href="contacto.html">Contacto</a>
+            <a href="login.html">login</a>
+        </nav>
+
+    </header>
+
+    <!-- Sección principal -->
+    <main>
+        <section>
+            <h1>Bienvenido a Concesionario Mi Auto</h1>
+            <h2>Tu aliado en movilidad</h2>
+            <p><strong>Ofrecemos</strong> vehículos nuevos y usados de calidad, además de <em>servicios confiables</em> para tu tranquilidad.</p>
+            <img src="/frontend/img/baner.png" alt="Imagen de concesionario" class="banner">
+
+            <h3>Beneficios</h3>
+<section class="beneficios">
+    <div class="beneficio">
+        <img src="/frontend/img/icono1.png.png" alt="Atención personalizada">
+        <p>Atención personalizada</p>
+    </div>
+    <div class="beneficio">
+        <img src="/frontend/img/icono3.png.png" alt="Garantía en todos los vehículos">
+        <p>Garantía en todos los vehículos</p>
+    </div>
+    <div class="beneficio">
+        <img src="/frontend/img/icono4.png.png" alt="Servicio técnico especializado">
+        <p>Servicio técnico especializado</p>
+    </div>
+    <div class="beneficio">
+        <img src="/frontend/img/icono5.png.png" alt="Entrega rápida y segura">
+        <p>Entrega rápida y segura</p>
+    </div>
+</section>
+
+
+            <h3>Tabla de vehículos disponibles</h3>
+            <table>
+                <tr>
+                    <th>ID</th><th>Vehículo</th><th>Descripción</th><th>Precio</th><th>Stock</th>
+                </tr>
+                <tr><td>1</td><td>Chevrolet Spark</td><td>Compacto económico</td><td>$27.750.000</td><td>Disponible</td></tr>
+                <tr><td>2</td><td>Mazda 3</td><td>Sedán moderno</td><td>$71.500.000</td><td>Disponible</td></tr>
+                <tr><td>3</td><td>Renault Duster</td><td>SUV familiar</td><td>$85,000,000</td><td>Disponible</td></tr>
+                <tr><td>4</td><td>Toyota Hilux</td><td>Camioneta resistente</td><td>$236.650.000</td><td>Disponible</td></tr>
+                <tr><td>5</td><td>Kia Picanto</td><td>Compacto urbano</td><td>$40,000,000</td><td>Agotado</td></tr>
+                <tr><td>6</td><td>Ford Ranger</td><td>Camioneta doble cabina</td><td>$110,000,000</td><td>Por encargo</td></tr>
+                <tr><td>7</td><td>Chevrolet Onix</td><td>Sedán eficiente</td><td>$65,000,000</td><td>Agotado</td></tr>
+                <tr><td>8</td><td>Nissan Versa</td><td>Sedán amplio</td><td>$70,000,000</td><td>Por encargo</td></tr>
+                <tr><td>9</td><td>Hyundai Tucson</td><td>SUV elegante</td><td>$95,000,000</td><td>Agotado</td></tr>
+                <tr><td>10</td><td>Chevrolet Tracker</td><td>SUV compacto</td><td>$90,000,000</td><td>Por encargo</td></tr>
+                <tr><td>11</td><td>Renault Kwid</td><td>Compacto económico</td><td>$38,000,000</td><td>Por encargo</td></tr>
+                <tr><td>12</td><td>Honda CR-V</td><td>SUV premium</td><td>$130,000,000</td><td>Por encargo</td></tr>
+            </table>
+
+            <h3>Ubicación</h3>
+<iframe 
+    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3976.707197662199!2d-75.5636!3d6.2518!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e4428f1f5d1c9c7%3A0x123456789abcdef!2sMedell%C3%ADn%2C%20Antioquia!5e0!3m2!1ses!2sco!4v1712345678901"
+    width="600" 
+    height="450" 
+    style="border:0;" 
+    allowfullscreen="" 
+    loading="lazy" 
+    referrerpolicy="no-referrer-when-downgrade">
+</iframe>
+
+        </section>
+    </main>
+
+    <!-- Formulario de contacto -->
+    <section>
+
+   <!-- Pie de página -->
+<footer>
+    <div class="redes">
+        <p>Síguenos:</p>
+        <a href="https://facebook.com" target="_blank">Facebook</a>
+        <a href="https://wa.me/573001234567" target="_blank">WhatsApp</a>
+        <a href="https://instagram.com" target="_blank">Instagram</a>
+    </div>
+
+<form id="contacto">
+    <label>Nombre:</label>
+    <input type="text" name="nombre" required><br>
+
+    <label>Correo electrónico:</label>
+    <input type="email" name="correo" required><br>
+
+    <label>Teléfono:</label>
+    <input type="tel" name="telefono"><br>
+
+    <label>Mensaje:</label>
+    <textarea name="mensaje"></textarea><br>
+
+    <button type="submit">Enviar</button>
+
+</form> 
+ <form class="suscripcion">
+        <label>Suscríbete:</label>
+        <input type="email" placeholder="Tu correo">
+        <button type="submit">Enviar</button>
+    </form>
+<button id="modo-btn">Modo Oscuro/Claro</button>
+
+
+    <div class="copy">
+        <p>© 2026 Concesionario Mi Auto - Todos los derechos reservados</p>
+    </div>
+</footer>
+<script src="/frontend/js/js/main.js"></script>
+</body>
+</html>
+
